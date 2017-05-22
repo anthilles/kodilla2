@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>NEM Polska</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    
+<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+<link rel="manifest" href="fav/manifest.json">
+<link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+ 
+</head>
+<body>
+   
+<!-- NAWIGACJA-->
+      
+    <nav class="navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="nemlogosmall.png" alt="logo" class="img-responsive"></a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html#korzysci">Podstawy</a></li>  
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Baza wiedzy <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="faq.html#home">Podstawy</a></li>
+                    <li></li>
+                    <li><a href="#">Harvesting</a></li>
+                    <li><a href="#">Portfele</a></li>
+                    <li><a href="#">Giełdy</a></li>
+                    <li><a href="#">Społeczność</a></li>    
+                    <li><a href="#">PoW</a></li>
+                    <li><a href="#">API</a></li>
+                    <li><a href="#">Mosaic</a></li>
+                    <li><a href="faq.html#Apostille">Apostille</a></li>
+                  </ul>
+                </li>                
+                    <li><a href="index.html#social">Społeczność</a></li>
+                    <li><a href="index.html#portfele">Portfele</a></li>           
+                <li><a href="index.html#handel">Handel</a></li>              
+            </ul>
+        </div>
+    </nav>
+    
+<!-- KARUZELA -->
+
+<section class="karuzela">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+<!--    SLAJD 1-->        
+        
+        <div class="carousel-inner" role="listbox">
+            <div class="item active example-1">
+                <div class="carousel-caption">
+              <h1>Kupuj, sprzedawaj, zarabiaj</h1>
+              <p class="lead">XEM jest obecny na największych giełdach kryptowalut. Volumen oraz realna wartość stawiają go w czołówce kryptowalut </p>
+              <a class="btn btn-primary" href="#">Giełdy handlujące XEMem</a>
+            </div>
+<!--   2-->
+            </div>
+            <div class="item example-2">
+                <div class="carousel-caption">
+              <h1>Blockchain</h1>
+              <p class="lead">Publiczny oraz prywatny blockchain. Rozwiązanie dostosowane do zwykłych użytkowników jak i firm. Mijin zapewnia bezpieczeństwo danych oraz ich szybki przepływ.</p>
+              <a class="btn btn-primary" href="#">Blockchain NEM oraz Mijin</a>
+            </div>       
+<!--   3>-->
+            </div>    
+            <div class="item example-3">  
+            <div class="carousel-caption">
+              <h1>Another dsdaf headline.</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="btn btn-primary" href="#">Learn more</a>
+            </div>         
+<!--   4-->
+            </div>
+            <div class="item example-4">  
+            <div class="carousel-caption">
+              <h1>Another dsdaf headline.</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="btn btn-primary" href="#">Learn more</a>
+            </div>         
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Poprzedni</span>
+</a>
+<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  <span class="sr-only">KOLEJNY</span>
+</a>
+    </div>
+</section>
+
+<!--   KORZYSCI -->
+
+           <section class="korzysci"><a name='korzysci'></a>
+        <div class="container">
+            <div class="row">
+               <div class="col-1 col-s-12"></div>
+                <div class="col-3 col-s-12">
+                    <i class="fa fa-rocket fa-5x" aria-hidden="true"></i>
+                    <h2>Rozwój</h2>
+                        <div class="list-group text-center">
+<!--KORZYSCI Multisig contracts-->                    
+                          <button type="button" class="list-group-item text-center" data-toggle="modal" data-target="#contracts">Multisig contracts</button>
+<div id="contracts" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>Multisig contracts</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>                          
+<!--  KORZYSCI    namespace-->
+                          <button type="button" class="list-group-item text-center" data-toggle="modal" data-target="#Namespace">Namespace</button>
+<div id="Namespace" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>Namespace</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>
+<!-- KORZYSCI       Zbieranie-->
+                          <button type="button" class="list-group-item text-center" data-toggle="modal" data-target="#Zbieranie">Zbieranie</button>
+<div id="Zbieranie" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>Zbieranie</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>
+<!--  KORZYSCI     Wiadomości-->
+                          <button type="button" class="list-group-item text-center" data-toggle="modal" data-target="#Wiadomosci">Wiadomości</button>
+<div id="Wiadomosci" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>Wiadomości</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>
+<!--  KORZYSCI     Mozaiki-->
+                          <button type="button" class="list-group-item text-center" data-toggle="modal" data-target="#Mozaiki">Mozaiki</button>
+<div id="Mozaiki" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>Mozaiki</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>
+                        </div>
+                </div>
+                <div class="col-1 col-s-12"></div>
+                <div class="col-3 col-s-12">
+                    <i class="fa fa-shield fa-5x" aria-hidden="true"></i>
+                    <h2>Bezpieczeństwo</h2>
+                        <div class="list-group">
+<!--  KORZYSCI      Reputacja-->
+                          <button type="button" class="list-group-item text-center" data-toggle="modal" data-target="#Reputacja">Reputacja</button>
+<div id="Reputacja" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>Reputacja</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>
+<!--  KORZYSCI    Ochrona-->
+                          <button type="button" class="list-group-item text-center" data-toggle="modal" data-target="#Ochrona">Ochrona</button>
+<div id="Ochrona" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>Ochrona</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>
+<!--  KORZYSCI    Zabezpieczenia-->
+                          <button type="button" class="list-group-item text-center" data-toggle="modal" data-target="#Zabezpieczenia">Zabezpieczenia</button>
+<div id="Zabezpieczenia" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>Zabezpieczenia</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>
+<!--  KORZYSCI   Supernodes-->
+                          <button type="button" class="list-group-item text-center" data-toggle="modal" data-target="#Supernodes">Supernodes</button>
+<div id="Supernodes" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>Supernodes</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>
+<!-- KORZYSCI    Lightwallet-->
+                          <button type="button" class="list-group-item text-center" data-toggle="modal" data-target="#Lightwallet">Lightwallet</button>
+<div id="Lightwallet" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>Lightwallet</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>
+                        </div>   
+                </div>
+                <div class="col-1 col-s-12"></div>
+                <div class="col-3 col-s-12">
+                    <i class="fa fa-cogs fa-5x" aria-hidden="true"></i>
+                    <h2>Możliwości</h2>
+                        <div class="list-group">
+<!--   KORZYSCI    code-->
+                          <button type="button" class="list-group-item text-center" data-toggle="modal" data-target="#code">100% nowego kodu</button>
+<div id="code" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>100% nowego kodu</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>
+<!--  KORZYSCI   api-->
+                          <button type="button" class="list-group-item text-center" data-toggle="modal" data-target="#api">API</button>
+<div id="api" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>API</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>
+<!--  KORZYSCI   poi-->
+                          <button type="button" class="list-group-item text-center" data-toggle="modal" data-target="#poi">POI</button>
+<div id="poi" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>POI</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>
+<!--   KORZYSCI   xem-->
+                          <button type="button" class="list-group-item text-center" data-toggle="modal" data-target="#xem">XEM</button>
+<div id="xem" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>XEM</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>
+<!--  KORZYSCI      nis-->
+                          <button type="button" class="list-group-item text-center" data-toggle="modal" data-target="#nis">NIS</button>
+<div id="nis" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>NIS</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>
+                    </div>
+                </div>
+                </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <h2>Czy NEM jest kryptowalutą?</h2>
+                    <p>Nem jest czymś więcej niż kryptowalutą. Nem jest projektem opartym o rozwiązanie blockchain służącym do szerszych rozwiązań, nie ogranicza się do przechowywania własnej waluty (xem). Dodatkowo, co ważne, NEM jest platformą typu "peer to peer" i dostarcza takie usługi jak płatności, komunikacja, tworzenie zbiorów oraz nazwanych systemów. Możliwości będzie cały czas przybywać, gdyż NEM cały czas się rozwija wraz z możliwościami technologii blockchain.</p>
+                    <div class="yt">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tVgEO-68-rU" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <p>Z NEM możesz wysyłać oraz odbierać płatności i wiadomosci w skali globalne - szybko, bezpiecznie i tanio, bez konieczności posiadania konta bankowego, przewalutowywania czy oczekiwania na zaksięgowanie. Dzięki technologii NEM możesz kupować, sprzedawać i handlować swoimi aktywami i towarami w skali globalnej - szybko i bezpiecznie.</p>
+                    
+
+
+                    <div id="output">bla!</div>
+
+
+    
+                    
+                </div>
+             </div>
+        </div>
+    </section>
+
+
+
+<!-- FAQ -->        
+    
+    <section class="galeria"><a name='faq'></a>
+        <div class="container">
+<!--FAQ PODSTAWY           -->
+            <div class="ikona" data-toggle="modal" data-target="#PODSTAWY">
+                 <i class="fa fa-info-circle fa-5x" aria-hidden="true"></i>
+                 <h2>Podstawy</h2>
+            </div>
+            
+<div id="PODSTAWY" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>PODSTAWY</h4>
+            </div>
+            <div class="modal-body">
+<h2>Przewodnik początkującego w NEM</h2>
+                        <p>Kryptowaluta jest odrobinę skomplikowana dla przeciętnego człowieka. Warto więc poświęcić chwilę, aby omówić pewne podstawowe pojęcia w NEM.</p>
+                        <p>Po pierwsze, rozpoczniemy od wyjaśnienia, czym jest "Blockchain". Następnie przejdziemy do wyjaśnienia "Zbierania"("Harvesting") i idei algorytmu "Dowodu Znaczenia"("Proof Of Importance"). Na koniec mamy nadzieję rzucić trochę światła na niektóre z ciekawych i innowacyjnych funkcji, które mamy w naszej platformie Blockchain.</p>
+                        <h2>Czym jest Blockchain?</h2>
+                        <p>"Blockchain" jest trochę jak kawałek papieru w książeczce czekowej, który pozwala śledzić wszystkie zmiany na rachunku bankowym. NEM "Blockchain" śledzi ile wydano, z kim zawarto transakcję, którego dnia, a nawet śledzi dokładny czas transakcji. Teraz wyobraźcie sobie, że wszyscy na świecie korzystają wspólnie z takiego rachunku. Są w nim zapisane operacje każdej osoby, która z niego korzysta. Jeśli dokonasz zmian, każdy może je zobaczyć, ale można dokonywać zmian jedynie, jeżeli wszyscy zgadzają się, że ta zmiana rzeczywiście miała miejsce. Każdy w dowolnym momencie ma do niego wgląd i może upewnić się, że wszystko się zgadza. Tak więc wszyscy zgadzają się, że ten kawałek papieru ma rację. Zwykle "Blockchain" śledzi kto posiada pieniądze i jakie transakcje są dokonywane pomiędzy użykownikami. W NEM to wciąż prawda - ale NEM śledzi również inne rodzaje transakcji, o których będzie mowa na końcu tego bloga.</p>
+                        <h2>Czym jest "Zbieranie"("Harvesting")?</h2>
+                        <p>W NEM Twój komputer obserwuje "Blockchain". Gdy komputer widzi, że ktoś chce dokonać transakcji, mówi o tym kolejnemu komputerowi. Potem wiadomość przekazywana jest kolejnym komputerom, aż w końcu wszyscy wiedzą o transakcji. Następnie każdy może się zgodzić z tym, że ktoś wysłał część swoich pieniędzy, a ktoś inny stał się nowym właścicielem tych funduszy. Podczas gdy Twój komputer uczestniczy w zatwierdzaniu wszystkich przelewów dokonywanych w sieci, ma szansę otrzymać w zamian opłaty transakcyjne za te przelewy. Czy to nie wspaniałe? Darmowe pieniądze! Jest to nazywane "Zbieraniem"("Harvesting"). Jest jeden haczyk - można rozpocząć "zbieranie" dopiero gdy posiadasz odpowiednią "ważność"(minimum 10 000 usankcjonowanych xem na swoim koncie). Zapobiega to nadużyciom i oszustwom wobec pozostałej części grupy.</p>
+                        <h2>Czym jest "Saldo Usankcjonowane"("Vested Balance")?</h2>
+                        <p>"Saldo Usankcjonowane" to ilość funduszy na Twoim koncie, które znajdują się tam od pewnego czasu. Stają się "usankcjonowane" w ciągu 30 dni. Kiedy masz odpowiednio dużo "usankcjonowanych" funduszy, zwiększa się Twoja ważność wobec grupy. Aby konto uzyskało odpowiednią ważność, osoba musi posiadać co najmniej 10 000 xem które zostały "usankcjonowane". Jeśli masz mniej niż 100 000 xem, potrwa to dłużej niż jeden dzień aby uzyskać odpowiednio dużo usankcjonowanych środków, a cały proces sankcjonowania wpłaconych środków trwa 30 dni. Jeśli masz więcej niż 100 000 xem, zajmie to tylko 24 godziny. Jaka jest przyczyna takiego zabezpieczenia? Pomaga to zachować bezpieczeństwo sieci NEM i zapobiega atakom na tej płaszczyźnie.
+                        </p>
+                        <h2>Co to jest "Dowód Ważności"("Proof of Importance")?</h2>
+                        <p>"Dowód Ważności" jest sposobem na zapewnienie, że wszystkie komputery w sieci zgadzają się ze sobą i pomaga zdecydować, kto może "zbierać" bloki z opłatami transakcyjnymi. Pomaga to zabezpieczyć sieć przed hakerami i zapewnia dobre działanie sieci NEM. Jest to główny czynnik zapewniający, że informacje w Blockchain takie jak ilość pieniędzy jakie dana osoba posiada, są prawdziwe. "Dowód Ważności" pomaga upewnić się, że każda osoba korzystająca z NEM może zaufać innym i powstrzymuje ludzi przed wydaniem więcej niż posiadają na koncie. Zastosowane formuły matematyczne przetwarzają informacje o koncie, aby zdecydować, jak ważna dla grupy jest dana osoba. Im większą masz ważność, tym większe masz szanse na uzyskanie opłat transakcyjnych pozostawionych przez innych użytkowników podczas 'zbierania' bloków! Oznacza to, że ludzie chcą mieć odpowiednio wysoką ważność, aby być bardziej wiarygodnym! Istnieje jeszcze kilka rzeczy, które decydują, jak dużą ważność ma Twoje konto. Twoje "Usankcjonowane Saldo", to do kogo wyślesz pieniądze, to jak często wysyłasz pieniądze i ile wyślesz są brane pod uwagę przy ustalaniu, jaką ważność ma Twoje konto. Próby sfałszowania tych wszystkich czynników pochłonęłyby więcej funduszy niż wyniosłyby zyski z takiego działania. Najlepsza część? Oznacza to, że zawsze można zaufać osobie z wysoką ważnością.</p>
+                        <h2>Podsumowując!</h2>
+                        <p>Kiedy wysyłasz komuś pieniądze, wszystkie aktywne węzły w sieci to widzą i przekazują informację pozostałym. Chcą być "ważnymi" i "zbierają" bloki, ponieważ w ten sposób mają szansę otrzymać pieniądze z opłat transakcyjnych, zapewniając jednocześnie bezpieczeństwo sieci. Teraz, kiedy już każdy wie, że wysłałeś pieniądze, każdy wie również, że ktoś inny otrzymał te pieniądze. Nie można wysłać ich ponownie lub udawać, że nigdy ich nie wysłałeś. Z pomocą "Dowodu Ważności", możemy mieć pewność, że ludzie bezpiecznie przesyłąją między sobą pieniądze. PoI powstrzymuje użytkowników przed oszukiwaniem innych. Oznacza to, że jedynym sposobem, aby dostać darmowe pieniądze jest "zbieranie" bloków.</p>
+                        <h2>BONUS:</h2>
+                        <p>Do tej pory omawialiśmy przesyłanie pieniędzy wewnątrz NEM, ale tak naprawdę NEM potrafi dużo więcej (to dlatego nazywamy go "Blockchainem 2.0 - Nową Generacją Blockchaina"). Te same zaawansowane obliczenia wykorzystywane do wysyłania pieniędzy mogą być również stosowane dla każdego rodzaju danych, które chcemy przechowywać na naszym Blockchainie! Choć to trochę trudniejsze do zrozumienia dla początkującego, mamy możliwość przechowywania czegokolwiek, począwszy od dokumentów urzędowych, takich jak akty urodzenia, aż do innych aktywów lub udziałów w dużych firmach. NEM można wykorzystać do wysyłania wiadomości szyfrowanych (czyli bezpieczne przesyłanie prywatnych wiadomości!), nieszyfrowanych i wiadomości w systemie szesnastkowym (format komunikatów używanych przez programistów). NEM posiada wbudowany system umożliwiający rejestrację nazw(Namespaces). Nazwy te mogą być wykorzystywane do prowadzenia działalności gospodarczej w oparciu o Blockchain. Posiada również możliwość tworzenia własnych aktywów. Funkcja ta nazywana jest Mozaiką i pozwala na tworzenie wielu różnych rodzajów aktywów o różnych właściwościach. NEM posiada również unikalną funkcję Multipodpisu m-of-n wbudowaną w protokół, który pozwala, aby pojedyncze rachunki posiadały wielu podpisujących(sygnatariuszy), tak jak we wspólnym rachunku bankowym. Przykładem m-of-n może być 2 podpisy z 3 potrzebne do przeprowadzenia transakcji lub 5 z 10. NEM posiada sieć węzłów nazywanych Supernodes. Supernode to serwer, który różni się od zwykłych węzłów sieci tym, że jest szybszy i silniejszy od przeciętnych serwerów wspierających sieć. W związku z tym, że wspierają pozostałe serwery, za swoją pracę otrzymują dofinansowanie ze specjalnego funduszu. NEM ma o wiele więcej funkcji, niż te, które wymieniliśmy powyżej!</p>
+                        <p>Tak więc, jeśli jesteś początkującym - dołącz do naszej bezpiecznej sieci i zostań częścią ekosystemu NEM! Jeśli jesteś programistą poszukującym nowego projektu - mamy bardzo aktywną społeczność developerów, którzy mają masę wspaniałych pomysłów! Zostańcie z nami, spodzewajcie się nowych, ciekawych funkcji w najbliższym czasie! Możesz śledzić nas na Twitterze lub Facebooku(a także na Slack/Telegram), aby dowiedzieć się więcej!</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>             
+<!--FAQ HARVESTING            -->
+            <div class="ikona" data-toggle="modal" data-target="#HARVESTING">
+                 <i class="fa fa-bar-chart fa-5x" aria-hidden="true"></i>
+                 <h2>Harvesting</h2>
+            </div>
+            
+<div id="HARVESTING" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>HARVESTING</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>             
+<!--FAQ PORTFELE            -->
+            <div class="ikona" data-toggle="modal" data-target="#PORTFELE">
+                 <i class="fa fa-lock fa-5x" aria-hidden="true"></i>
+                 <h2>Portfele</h2>
+            </div>
+            
+<div id="PORTFELE" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>PORTFELE</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>             
+<!--FAQ GIELDY            -->
+            <div class="ikona" data-toggle="modal" data-target="#GIELDY">
+                 <i class="fa fa-exchange fa-5x" aria-hidden="true"></i>
+                 <h2>Giełdy</h2>
+            </div>
+            
+<div id="GIELDY" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>GIEŁDY</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>             
+<!--FAQ SPOLECZNOSC            -->
+            <div class="ikona" data-toggle="modal" data-target="#SPOLECZNOSC">
+                 <i class="fa fa-users fa-5x" aria-hidden="true"></i>
+                 <h2>Społeczność</h2>
+            </div>
+            
+<div id="SPOLECZNOSC" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>SPOŁECZNOŚĆ</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>             
+<!--FAQ POW            -->
+            <div class="ikona" data-toggle="modal" data-target="#POW">
+                 <i class="fa fa-line-chart fa-5x" aria-hidden="true"></i>
+                 <h2>PoW</h2>
+            </div>
+            
+<div id="POW" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>POW</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>             
+<!--FAQ API            -->
+            <div class="ikona" data-toggle="modal" data-target="#API">
+                 <i class="fa fa-code fa-5x" aria-hidden="true"></i>
+                 <h2>Api</h2>
+            </div>
+            
+<div id="API" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>API</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>             
+<!--FAQ MOSAIC            -->
+            <div class="ikona" data-toggle="modal" data-target="#MOSAIC">
+                 <i class="fa fa-sitemap fa-5x" aria-hidden="true"></i>
+                 <h2>Mosaic</h2>
+            </div>
+            
+<div id="MOSAIC" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>MOSAIC</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div>            
+<!--FAQ APOSTILLE            -->
+            <div class="ikona" data-toggle="modal" data-target="#APOSTILLE">
+                 <i class="fa fa-file-text fa-5x" aria-hidden="true"></i>
+                 <h2>Apostille</h2>
+            </div>                 
+
+<div id="APOSTILLE" class="modal fade text-center" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+                <h4>APOSTILLE</h4>
+            </div>
+            <div class="modal-body">
+<p>Niedawno został opublikowany nowy NEM Apostille White Paper czyli dokument, który opisuje i demonstruje technologię, za którą stoi zupełnie nowy system uwierzytelniania i dokumentacji danych, natywnie zaimplementowaną w blockchainie NEM.</p>
+                        <p>NEM znajduje się w top 10 blockchainów (wg. kapitalizacji rynkowej) na świecie. Ponadto został uznany przez rząd Chin za jeden z najbezpieczniejszych blockchainów.</p>
+                        <h2>Uwierzytelnianie Blockchainu</h2>
+                        <p>Jedną z głównych funkcjonalności jakiegokolwiek systemu Blockchain jest jego niezmienność. To zapobiega nadużyciom i manipulowaniu danymi przez hakerów lub nieetycznie działające jednostki. Ta funkcja jest niezwykle ważna, gdyż zanim narodził się Blockchain, utrzymanie niezmiennych zapisów danych było globalną bolączką (jeśli nie czymś niemożliwym) dla wszelakiej maści informatyków, administratorów baz danych, firm, rządów czy zwykłych ludzi.
+
+                        <p>W połowie czerwca 2014 roku Factom zaprezentował scenie swój koncept uwierzytelniania oparty o Blockchain, zainspirowany niektórymi inicjatywami zbudowanymi na bazie Bitcoina. Jednak deweloperzy Factom w tamtym czasie nie zaczęli jeszcze nawet fazy produkcyjnej. Factom oddziela warstwę danych (uwierzytelnianie) od warstwy wartości (monet, funduszy, tokenów). Pozwala to wszystkim na uwierzytelnianie danych w osobnym systemie, który jest zakotwiczony w Blockchainie Bitcoina. To właśnie zapewnia niezmienność danych.</p>
+
+                        <p>Żeby to było możliwe, Factom wymaga Federated Servers i Nodów Blockchaina, które wykonują wszystkie operacje Factom i przesyłają wyniki do Blockchainu Bitcoina co 10 minut. Jednak ten proces nie jest najbardziej przejrzystym i transparentnym rozwiązaniem. Federated Servers są przeklasowywane co każde 4 godziny na zasadzie wyboru przez użytkowników, którzy mają moc głosowania zależną od tzw. Entry Credits, które kupili i użyli w ostatnich 6 miesiącach.</p>
+
+                        <p>Z logistycznego punktu widzenia, system połączonych nodów nie jest najbezpieczniejszy. Był ogromną innowacją na rok 2014, kiedy jeszcze nawet Ethereum nie zostało wypuszczone na rynek. Jednakże Factom na ten moment po prostu nie może rywalizować z technologicznym postępem ostatnich dwóch lat. Oprogramowanie Factom jest ciągle w fazie Beta, więc używanie go może być bardzo ryzykowne, a firmy chcące z niego korzystać, powinny wstrzymać się do całkowitego potwierdzenia, że jest ono stabilne
+                        </p>
+                        <h2>Całościowy system uwierzytelniania blockchainu</h2>
+                        <p>Od zawsze istniała potrzeba posiadania taniego i jak najbardziej bezpiecznego systemu uwierzytelniania i dokumentacji danych przez wiele firm i rządów. Do dziś wszystkie rozwiązania nie były wystarczająco dobre, nie mówiąc już o ideale.</p>
+                        <p>Deweloperzy NEM chcieli zbudować Blockchain z rozwiązaniami natywnie wbudowanymi w ich platformę. Tak właśnie stworzyli Apostille, czyli całościowy system uwierzytelniania oparty o blockchain. W tym systemie uwierzytelnione dane nie są statycznie dokumentowane, ale mogą być dynamiczne, przemieszczać się, zmieniać i aktualizować wartości w blockchainie. Firmy używające tego serwisu lub aplikacje na nim budowane mogą same ustalać jak ich konta Apostille mają być zbudowane i jak mają oddziaływać z uprawnieniami nadanymi przez Namespaces, wartością i statusem reprezentowanymi przez cyfrowe aktywa wysłane do danego konta, jak i informacjami przesłanymi w formie notatek. Ponadto możliwe jest opcjonalne dostosowanie otwartoźródłowego systemu Apostille, aby zmienić strukturę aplikacji w celu jak najlepszego wykorzystania powyższych cech.</p>
+                        <img src="faq/apostillelogo.png" class="img-responsive">
+                        <p>Główną innowacją usługi notaryzacyjnej Apostille jest to, że nie robi jednorazowej dokumentacji fingerprintu (pewnego rodzaju spisania danych), ale łączy go z informacjami z konta użytkownika i tworzy dla niego specjalny, unikatowy klucz prywatny. Ten prywatny klucz, przypisany do danego pliku, jest użyty do stworzenia hierarchicznego konta HD (HD - hierarchical deterministic). Później system tworzy fingerprint dokumentu haszując zawartość danego pliku i podpisując ten hasz kluczem prywatnym użytkownika. Podpisany fingerprint wysyłany jest w transakcji do konta HD stworzonego z klucza prywatnego danego pliku. To konto HD zawiera teraz tzw. metadatę (dane, które opisują i dają informacje na temat innych danych) oraz wspomniany fingerprint, więc można powiedzieć, że zostało “pokolorowane” danym, wysłanym plikiem.</p>
+                        <p>Ważną kwestią odnośnie NEM Apostille jest to, że te funkcje są natywnie zaimplementowane w blockchain, więc nie wymagane jest żadne zaufanie. NEM Apostille jest w etapie produkcji, więc nie trzeba martwić się o niestabilność i ryzyko związane z używaniem wersji beta. Apostille można używać za pomocą oficjalnego portfelu NEM, o nazwie NanoWallet.</p>
+                        <img src="faq/nanowalet.png" class="img-responsive">
+                        <h2>Apostille dla Mijin</h2>
+                        <p>Następna zaletą technologii NEM jest to, że jest także używana na łańcuchach technologii prywatnych blockchainów Mijin, stworzonej przez Tech Bureau. Łańcuchy Mijin używają tych samych API (Application Programming Interface) co łańcuch NEM. Dzięki temu zyskuje on na zaletach jakie oferuje NEM, bo też może korzystać z serwisu Apostille, z tym, że oferuje niezwykle wysoką wydajność co do liczby transakcji na sekundę liczoną w tysiącach, przy jednoczesnym zaniechaniu opłat transakcyjnych dla konsumenta. Łańcuch Mijin jest prowadzony przez prywatny biznes, więc konsumenci muszą ufać firmie udostępniającej prywatny łańcuch. Lecz jeśli jest podłączymy go do publicznego łańcucha NEM, może zapewnić całkowitą wiarygodność i użytkownicy mają pewność, że historia danych nie została naruszona.</p>
+                        <img src="faq/dlanina.png" class="img-responsive">
+                        <h2>Podsumowanie</h2>
+                        <p>Przechodząc do konkluzji całego artykułu, możemy powiedzieć, że Factom był dobrym pierwszym podejściem do uwierzytelniania dokumentów, lecz jego implementacja nie jest gotowa na problemy prawdziwego przemysłu. Polega on również na różnych protokołach, które muszą być ze sobą ściśle skoordynowane, pozostawiając większe pole dla błędów.</p>
+                        <p>NEM z drugiej strony stworzył rozwiązanie już u swoich podstaw. Oferuje dodatkowe, wbudowane funkcje użyte do stworzenia Apostille w naturalny, efektywny i przetestowany sposób.</p>
+                        <img src="faq/pods.png" class="img-responsive">
+            </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+		</div>
+	</div>
+</div> 
+                     
+<!-- SPOŁECZNOŚĆ -->                                                                                                   
+                      
+     </div>  
+    </section>
+    <section class="team"><a name='social'></a>
+        <div class="container">
+           <h1>Dołącz do polskiej społeczności</h1>
+           <p>Polska społeczność NEM cały czas się rozwija. Przybywa nowych fascynatów tak samej technologii jak i wirtualnej waluty XEM. Jeśli masz pytania, nie wiesz jak zacząć lub chcesz poznać podobnych sobie fanów kryptowalut to zapraszam do poniższych grup</p>
+            <div class="row">
+                <div class="col-4 col-m-6 col-s-12">
+                    <a href="https://t.me/nempl" target="_blank">
+                        <img src="telegram.png" alt="tele">
+                    </a>
+                    <h2>Telegram</h2>
+                </div>
+                <div class="col-4 col-m-6 col-s-12">
+                    <a href="https://www.facebook.com/groups/NEM.Polska" target="_blank">
+                        <img src="facebook.png" alt="facebook">
+                    </a>
+                    <h2>Facebook</h2>
+                </div>
+                <div class="col-4 col-m-6 col-s-12">
+                    <img src="logoforum.png" alt="bitcoin.pl">
+                     <h2>Forum Bitcoin.pl</h2>
+                </div>
+            </div>
+            <p>Na Telegramie, w grupie na Facebooku oraz forum dyskusyjnym codziennie zbierają się osoby zaangażowane w rozwój technologii NEM. Znajdują się tam również pasjonaci handlu kryptowalutą XEM. Na oficjalnym kanale jest możliwość porozmawiania z twórcami oraz osobami odpowiedzialnymi za rozwój projektu. Dołącz do najlepiej poinformowanych osób.</p>
+        </div>
+    </section>
+    <section class="awesome"><a name='portfele'></a>
+        <div class="container">
+           <h1>Portfele</h1>
+            <div class="row">
+                <div class="col-2">
+                    <img src="nemClient.png" alt="app">
+                </div>
+                <div class="col-10">
+                <div class="row">
+                    <div class="col-6 col-s-12">
+                        <h2>Aplikacja mobilna</h2>
+                        <p>Pobierz najnowszą wersję aplikacji mobilnej NEM App na systemy operacyjne Android oraz iOS</p>
+                        <br>
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="https://itunes.apple.com/us/app/nem-wallet/id1227112677" target="_blank"><img src="macApp.png" class="img-responsive"></a>
+                            </div>
+                            <div class="col-6">
+                                <a href="https://play.google.com/store/apps/details?id=org.nem.nac.mainnet&hl=en" target="_blank"><img src="googlePlay.png" class="img-responsive"></a>
+                            </div>
+                        </div>
+                            <h2 class="text-center">Samodzielny instalator</h2>
+                            <p>Wersja desktopowa portfela wykorzystywana przy uruchamianiu supernode oraz full node. Większości użytkowników zalecana jest wersja Nanowallet</p>  
+                        <button type="button" class="btn btn-primary">
+                            <a href="https://nem.io/install.html" target="_blank">Pobierz</a>
+                        </button>  
+                    </div>
+                    <div class="col-6 col-s-12">
+                        <h2>NEM Nanowallet</h2>
+                            <div class="list-group">
+                                <a href="#" class="list-group-item active text-center">
+                                    Niektóre z licznych funkcjonalności portfela desktopowego 
+                                </a>
+                                <a href="#" class="list-group-item text-center">Wysyłaj XEM, mozaiki i  wiadomości na dowolny adres/namespace</a>
+                                <a href="#" class="list-group-item text-center">Kompatybilny z systemami operacyjnymi Windows, OSX, Linux oraz pozostałymi</a>
+                                <a href="#" class="list-group-item text-center">Funkcjonalności On-Chain Multisignature oraz konta typu Multi-User</a>
+                                <a href="#" class="list-group-item text-center">Dostępne usługi Namespaces, Subdomains oraz Mosaics</a>
+                                <a href="#" class="list-group-item text-center">Usługa Apostille Notarization </a>
+                                <a href="#" class="list-group-item text-center">Błyskawiczna wymiana dzięki zaimplementowaniu Changelly</a>
+                                <a href="#" class="list-group-item text-center">Możliwość szybkiej aktualizacji z portfela NCC</a>
+                            </div>
+                        <button type="button" class="btn btn-primary">
+                            <a href="https://nem.io/install.html" target="_blank">Pobierz</a>
+                        </button>
+                        <img src="WjO2irv.png">
+                    </div>
+                </div> 
+                </div>  
+            </div>
+        </div>      
+    </section>   
+
+<!-- GIEŁDA -->                                                                                                      
+    <section class="trade"><a name='handel'></a>
+       <div class="container">
+           <h1>Handel</h1>
+           <p class="text-center">NEM posiada swoją własną kryptowalutę - XEM. Jest ona notowana na największych giełdach kryptowalut, można ją zakupić a następnie wykorzystywać do handlu.</p> <p>Poniżej znajduje się aktualny spis giełd oraz kantorów na których można wymieniać XEM</p>
+            <div class="row">
+                <div class="col-3">
+                    <a href="https://poloniex.com/exchange#btc_xem" target="_blank"><img src="poloniex.png"></a>
+                </div>
+                <div class="col-3">
+                    <a href="https://bittrex.com/Market/Index?MarketName=BTC-XEM" target="_blank"><img src="bitrex.png"></a>
+                </div>
+                <div class="col-3">
+                    <a href="http://bter.com/trade/xem_btc" target="_blank"><img src="bter.png"></a>
+                </div>
+                <div class="col-3">
+                    <a href="http://www.btc38.com/trade_en.html?btc38_trade_coin_name=xem" target="_blank"><img src="btc38.png"></a>
+                </div>
+            </div>
+            <p>Zakup oraz sprzedaż XEM jest możliwy również bezpośrednio poprzez Nanowallet - jest zintegrowany z kantorem Changelly. Możliwość wymiany na BTC oraz zakupu poprzez kartę płatniczą i internetowe systemy płatności.</p>
+        </div>
+    </section>
+
+<!-- END -->   
+   
+    <footer>
+        <p>Copyrights Rafał Perzyna "Anthilles"</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.8/p5.js"></script>
+    <script src="ticker.js"></script>
+     
+</body>
+</html>                 
