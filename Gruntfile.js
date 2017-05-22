@@ -1,50 +1,53 @@
 module.exports = function(grunt) {
 
   // Project configuration.
-    grunt.initConfig({
-        sass: {
-            options: {
-                sourceMap: true
-            },
-            dist: {
-                files: {
-              'css/main.css': 'nem/main.sass'
-                }
-            }
-        }
-      });
-    
-    imagemin: {
-        dynamic: {
-            files: [{
-                expand: true,
-                cwd: 'nem/',
-                src: ['**/*.{png,jpg,gif}'],
-                dest: 'nem/wynik/'
-            }]
-        }
-    }
-    
-    watch: {
-    scripts: {
-        files: ['nem/*.sass'],
-        tasks: ['sass'],
-            options: {
-                spawn: false,
-            },
-        } 
-    }
+  grunt.initConfig({
+  	sass: {
+  		options: {
+  			sourceMap: true
+  		},
+  		dist: {
+  			files: {
+  				'style.css': 'style.sass'
+  			}
+  		}
+  	},
+
+  	imagemin: {
+  		dynamic: {
+  			files: [{
+  				expand: true,
+  				cwd: 'nem/',
+  				src: ['**/*.{png,jpg,gif}'],
+  				dest: 'nem/zmienione/'
+  			}]
+  		}
+  	},
+
         
-    sync: {
-        dev: {
-            bsFiles: {
-                src : 'style.css'
-            },
-            options: {
-                watchTask: true
+    browserSync: {
+        bsFiles: {
+            src : 'nem/*.css'
+        },
+        options: {
+            server: {
+                baseDir: "./"
             }
         }
     },
+
+
+    watch: {
+            scripts: {
+                files: ['sass/*.sass'],
+                tasks: ['sass'],
+                options: {
+                    spawn: false,
+            },
+        } 
+    }
+      
+});                     
         
   // Load the plugins tasks 
     grunt.loadNpmTasks('grunt-sass');
@@ -52,5 +55,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-browser-sync');
   // Default task(s).
-  grunt.registerTask('default', ['sass', 'imagemin', 'watch', 'sync']);
+  grunt.registerTask('default', ['sass', 'imagemin', 'browserSync', 'watch']);
 };
